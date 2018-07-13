@@ -1,0 +1,97 @@
+.post-preview-widget {
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    height: 125px;
+    cursor: pointer;
+    border-bottom: rgb(235, 235, 235) solid 1px;
+}
+
+.post-preview-content-area {
+    height: 105px;
+    position: relative;
+}
+
+.post-preview-img {
+    width: 140px;
+    height: 105px;
+    border: none;
+    float: left;
+}
+
+.post-preview-text-area {
+    float: left;
+    width: 425px;
+    padding-left: 25px;
+    line-height: normal;
+    font-size: 12px;
+
+}
+
+.post-preview-text-area a {
+    color: #0f0f0f;
+    text-decoration: underline rgb(204, 204, 204);
+}
+
+#post-preview-section-link {
+    font-size: 12px !important;
+    color: #777;
+    text-decoration: none;
+
+}
+
+#post-preview-section-link div {
+    margin-bottom: 10px;
+}
+
+#post-preview-section-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#post-preview-title a {
+    color: #007;
+    font-weight: bold;
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 360px;
+    text-decoration: none;
+}
+
+#post-preview-title {
+    margin-bottom: 6px;
+}
+
+#post-preview-title a:hover {
+    color: #f60;
+}
+
+.post-preview-text {
+    color: #333;
+    font-family: arial;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.post-preview-comments-count {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+    color: #777;
+}
+
+.post-preview-comments-count:hover {
+    color: black;
+}
+
+.post-preview-comments-count div {
+    height: 9px;
+    width: 9px;
+    margin-top: 3px;
+    margin-right: 2px;
+    background: url("../img/about_cinema.gif");
+    background-position: 18px 0px;
+    float: left;
+}

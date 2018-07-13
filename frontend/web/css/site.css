@@ -1,0 +1,313 @@
+/*html,
+body {
+    background-color: #f2f2f2;
+    height: 100%;
+
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+*/
+/* add sorting icons to gridview sort links *//*
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar *//*
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+*/
+
+
+/*Дальше пошли мои стили*/
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    height: 100%;
+    width: 850px;
+    padding: 12px;
+    margin: 0px auto;
+    box-shadow: 5px 0px 5px rgba(122,122,122,0.2),
+               -5px 0px 5px rgba(122,122,122,0.2),
+                0px 5px 5px rgba(122,122,122,0.2);
+}
+
+.header {
+    margin: 30px auto;
+    background: #4c4c4c;
+    height: 120px;
+    width: 850px;
+}
+
+.header-top {
+    height: 68px;
+    position: relative;
+    border-bottom: 1px solid #5e5e5e;
+    padding: 0 32px;
+    display: flex;
+}
+
+.header-logo {
+    height: 68px;
+    width: 215px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: tahoma, verdana, arial;
+    fill: #FFF;
+}
+
+/*спан, содержащий три элемента: поле ввода, кнопки искать и расширенный поиск*/
+.header-trio-inputs{
+    height: 37px;
+    width: 360px;
+    display: flex;
+    margin: auto 0;
+    background: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+/*поле ввода поиска*/
+.header-input {
+    opacity: 0.6;
+    outline: 0;
+    /*outline-offset: 0;*/
+    height: 36px;
+    width: 272px;
+
+    border: 0px;
+    font-size: 14px;
+    line-height: 17px;
+    text-indent: 16px;
+
+    margin: auto 3px;
+}
+
+/*кнопка искать и расширенный поиск*/
+.header-inputs {
+    opacity: 0.3;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 42px;
+    margin: auto;
+    background-color: white;
+    border: 0;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath fill='%23000' fill-rule='evenodd' d='M18.83 9a3.001 3.001 0 0 1-5.66 0H3V7h10.17a3.001 3.001 0 0 1 5.66 0H21v2h-2.17zM5.17 15a3.001 3.001 0 0 1 5.66 0H21v2H10.83a3.001 3.001 0 0 1-5.66 0H3v-2h2.17zM8 17a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8-8a1 1 0 1 0 0-2 1 1 0 0 0 0 2z'/%3E %3C/svg%3E");
+
+}
+
+/*уточнение для кнопки искать*/
+.header-button-search {
+content: '';
+    opacity: 0.3;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #ccc;
+    background-image:url("data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E %3Csvg width='16px' height='16px' viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch --%3E %3Ctitle%3Esearch%3C/title%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='new' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='desktop-header-states' transform='translate(-790.000000, -205.000000)'%3E %3Cg id='Default' transform='translate(215.000000, 179.000000)'%3E %3Cg id='search' transform='translate(245.000000, 16.000000)'%3E %3Cg transform='translate(282.000000, 6.000000)'%3E %3Cg transform='translate(44.000000, 0.000000)'%3E %3Cpolygon points='0 0 24 0 24 24 0 24'%3E%3C/polygon%3E %3Cpath d='M14.8938098,13.4722306 L20,18.5 L18.5,20 L13.4722306,14.8938098 C12.4922065,15.5904094 11.2939357,16 10,16 C6.6862915,16 4,13.3137085 4,10 C4,6.6862915 6.6862915,4 10,4 C13.3137085,4 16,6.6862915 16,10 C16,11.2939357 15.5904094,12.4922065 14.8938098,13.4722306 Z M10,14 C12.209139,14 14,12.209139 14,10 C14,7.790861 12.209139,6 10,6 C7.790861,6 6,7.790861 6,10 C6,12.209139 7.790861,14 10,14 Z' fill='%23000000' fill-rule='nonzero'%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+}
+
+.header-bottom {
+   /* margin-left: 30px;*/
+    /*margin-top: 15px;*/
+    height: 52px;
+    margin-top: 16px;
+    border: 0;
+}
+
+#nav_header_main_menu{
+    padding: 0;
+    height: 100%;
+    /*margin-left: 180px;*/
+}
+
+#header_main_menu {
+    padding: 0;
+    height: 100%;
+
+}
+
+
+#header_main_menu li{
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto; 
+
+}
+
+#header_main_menu li #smart_tv{
+    color: rgb(246,95,18);
+}
+
+#header_main_menu li a{
+    color: lightgray;
+    font-size: 14px;
+
+    margin-bottom: 18px;
+    height: auto;
+    padding: 18px 15px;
+    height: 52px;
+    border: 0;
+}
+
+#header_main_menu_first_link{
+    margin-left: 180px;
+}
+
+#header_main_menu li div{
+    display: none;
+    background: white;
+    width: 850px;
+    height: 200px;
+    margin:16px 0px 0px 0px;
+    box-shadow: 10px 0px 10px rgba(122,122,122,0.2),
+               -10px 0px 10px rgba(122,122,122,0.2),
+                0px 10px 10px rgba(122,122,122,0.2);
+}
+
+
+
+#header_main_menu li a:hover {
+    color: white;
+    text-decoration: none;
+    background: rgb(94,94,94);
+}
+
+
+#header_main_menu li:hover div{
+    display: block;
+    position: absolute;
+    z-index:99999999;
+}
+
+#header_main_menu li div:hover{
+    display: block;
+    position: absolute;
+    z-index:99999999;
+}
+
+.main_block_line {
+    margin-left: -12px;
+    border-left: 2px solid #f60;
+    padding: 0 0 0 20px;
+    height: 28px;
+    line-height: 28px;
+    font-family: arial,sans-serif;
+    color: #f60;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dedede));
+    background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #dedede 100%);
+    background-image: -moz-linear-gradient(top, #f3f3f3 0%, #dedede 100%);
+    background-image: linear-gradient(-180deg, #f3f3f3 0%, #dedede 100%);
+}

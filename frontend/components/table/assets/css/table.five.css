@@ -1,0 +1,98 @@
+.table-five-widget {
+    background: white;
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+.block {
+
+    padding-right: 0px;
+    padding-left: 6px;
+}
+
+.block-left {
+
+    width: 22px;
+}
+
+.block-right {
+    margin-left: -4px;
+    width: 35px;
+    padding-left: 0px;
+    padding-right: 6px;
+    text-align: right;
+}
+.table-five-row {
+    background: rgb(242,242,242);
+    width: 240px;
+    min-height: 36px;
+    padding: 3px 3px 0 0;
+    margin: 0;
+}
+
+.table-five-row:hover {
+    background: rgb(227,232,240);
+}
+
+.table-five-title-row {
+    height: 38px;
+    width: 240px;
+    background: url('../img/block_right.jpg');
+    /*background-position:0px 494px;смещение внутри картинки (кратное 38)*/
+}
+
+.table-five-title-text {
+    color: #f60;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-top: 16px;   
+}
+
+.table-five-title-little-text {
+    color: #777;
+    font-size: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+.table-five-numeric-text {
+    color: #f60;
+    font-size: 10px;
+    padding-top: 0px;
+}
+
+.table-five-link-text {
+    color: #007;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.table-five-aux-text {
+    color: #777;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.table-five-aux-link-text {
+    color: #999 !important;
+    font-size: 10px !important;
+    text-decoration: underline;
+}
+
+.table-five-bottom-link-text{
+    padding-top: 3px;
+    color: #777 !important;
+    font-size: 10px;
+    text-align: right;
+}
+
+.table-five-bottom-link-text a{
+    color: #777 !important;
+    font-size: 10px;
+    text-decoration: underline;
+    text-align: right;
+
+
+}
+
