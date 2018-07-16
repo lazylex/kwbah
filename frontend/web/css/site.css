@@ -125,11 +125,16 @@ a.desc:after {
 
 /*Дальше пошли мои стили*/
 
+body  {
+    background: #e6e6e6;
+}
+
 a {
     text-decoration: none;
 }
 
 .main-container {
+    background: white;
     height: 100%;
     width: 850px;
     padding: 12px;
